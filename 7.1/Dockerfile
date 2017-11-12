@@ -1,6 +1,6 @@
 ARG FROM_TAG
 
-FROM wodby/php:${FROM_TAG}
+FROM eugeniominardi/php:${FROM_TAG}
 
 ENV WODBY_DIR_FILES="/mnt/files" \
     WODBY_DIR_CONF="/var/www/conf" \

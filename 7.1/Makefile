@@ -6,7 +6,7 @@ FROM_TAG = $(PHP_VER)
 TAG ?= $(PHP_VER)
 PHP_DEBUG ?= 0
 
-REPO = wodby/drupal-php
+REPO = eugeniominardi/drupal-php
 NAME = drupal-php-$(PHP_VER)
 
 ifneq ($(FROM_STABILITY_TAG),)

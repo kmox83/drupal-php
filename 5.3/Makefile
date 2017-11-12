@@ -4,7 +4,7 @@ PHP_VER = 5.3
 
 TAG ?= $(PHP_VER)
 
-REPO = wodby/drupal-php
+REPO = eugeniominardi/drupal-php
 NAME = drupal-php-$(PHP_VER)
 
 .PHONY: build test push shell run start stop logs clean release
